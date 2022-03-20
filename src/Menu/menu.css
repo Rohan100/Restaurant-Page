@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-self: center;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 180, 107);
+    border-radius: 0.5em;
+    width: 400px;
+    padding: 10px;
+}
+.item-img{
+    width: 100%;
+    text-align: center;
+}
+.item-img img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.item-img img:hover{
+    transform: scale(1.1);
+}
+.discription h2{
+    text-align: center;
+    
+}
+.discription{
+    color: black;
+    opacity: 0.7;
+}
+.discription p{
+    font-size: large;
+    margin-top: 0.3em;
+}

@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    font-size: 18px;
+    top: 0;
+    background: #000000;
+    flex-wrap: wrap;
+}
+.brand-name {
+    justify-self: start;
+    font-size: 1.2em;
+    color: burlywood;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.3em 0.6em;
+}
+.tab{
+    margin:0  2%;
+}
+.tab a:hover,.active{
+    transition-delay:200ms;
+    border-bottom: 2px solid white;
+}
+.nav-icon{
+    margin-left: auto;
+}
+.nav-icon img{
+    width: 30px;
+    object-fit: contain;
+}
+@media screen and (max-width : 500px) {
+    .brand-name{
+        width: 100%;
+        justify-self: center;
+    }
+}
